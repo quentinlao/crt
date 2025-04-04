@@ -1,0 +1,37 @@
+.mainLayout {
+  --color-background: #333;
+  --color-text: #fff;
+  --spacing-base: 1rem;
+  display: block;
+
+  &__header {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding: var(--spacing-base);
+
+    h1 {
+      margin: 0;
+    }
+
+    a {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+  }
+}
+
+@media (--sm) {
+  .mainLayout {
+    &__header {
+      padding: calc(var(--spacing-base) * 1.5);
+    }
+  }
+}
+
+@media (--lg) {
+  .mainLayout {
+    &__header {
+      padding: calc(var(--spacing-base) * 2);
+    }
+  }
+}
