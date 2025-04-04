@@ -1,0 +1,24 @@
+{
+  "entryPoints": ["src/main.tsx"],
+  "out": "docs",
+  "tsconfig": "tsconfig.app.json",
+  "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts", "**/*.spec.tsx", "**/__tests__/**", "**/__mocks__/**"],
+  "excludeExternals": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "hideGenerator": true,
+  "includeVersion": true,
+  "readme": "README.md",
+  "theme": "default",
+  "name": "CRT Documentation",
+  "categorizeByGroup": true,
+  "defaultCategory": "Other",
+  "categoryOrder": ["Components", "Hooks", "Services", "Types", "Other"],
+  "sort": ["source-order"],
+  "visibilityFilters": {
+    "protected": false,
+    "private": false,
+    "inherited": true,
+    "external": false
+  }
+} 
