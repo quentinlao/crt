@@ -3,7 +3,7 @@
   "description": "A template for creating React applications.",
   "homepage": "https://quentinlao.github.io/crt",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "yarn vite --port 3000",
@@ -21,7 +21,7 @@
     "docs:watch": "typedoc --watch",
     "docs:open": "open docs/index.html",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist -b main"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.71.5",
